@@ -1,0 +1,19 @@
+POST http://127.0.0.1:8000/api/user/register/
+Content-Type: application/json
+
+{"username": "vlad", "password": "1234", "email": "vlad@gmail.com"}
+
+###
+
+POST http://127.0.0.1:8000/api/user/login/
+Content-Type: application/json
+
+{"username": "mihai", "password": "1234"}
+
+###
+
+GET http://127.0.0.1:8000/api/user/test_token/
+Content-Type: application/json
+Authorization: Token c0f5082061c898ccb06401e2803085f7562ae6a0
+
+{}

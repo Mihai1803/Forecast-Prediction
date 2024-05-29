@@ -1,0 +1,18 @@
+POST http://127.0.0.1:8000/api/data/forecast/
+Content-Type: application/json
+
+{"location": "Romania"}
+
+### 
+
+POST http://127.0.0.1:8000/api/data/forecast/
+Content-Type: application/json
+
+{"location": "Germany"}
+
+###
+
+POST http://127.0.0.1:8000/api/data/predict_forecast/
+Content-Type: application/json
+
+{"location": "Romania"}
